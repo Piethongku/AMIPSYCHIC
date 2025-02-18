@@ -1,0 +1,229 @@
+body{
+  background-color: #E0EFF8;
+}
+
+
+.title-container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 35px;
+}
+
+
+.title, .nav{
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #0093D0;
+}
+
+
+.instruction-1 {
+  font-family: 'Arial Narrow';
+  font-weight: bold;
+  text-transform: uppercase;
+  border: #015F86 solid;
+  border-radius: 30px;
+  color: #E0EFF8;
+  background-color: #0093D0;
+  padding-left: 1.5em;
+  padding-left: 1.5em;
+  width: fit;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 100px;
+
+}
+
+
+.body01{
+  font-family: "Inria Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0093D0;
+  padding-right: 8em;
+  margin-left: 5.9em;
+  margin-top: 2em;
+}
+
+
+.flex-parent{
+  display: flex;
+  margin-left: 5em;
+  margin-top: 2em;
+}
+
+
+.flex-child-circle{
+  margin: 10px;
+  display: inline-block; 
+}
+
+
+.container {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  padding-left: 2em;
+  margin-bottom: 5em;
+  margin-left: 3em;
+  margin-top: 5em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Inria Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0093D0;
+  font-size: 1rem;
+  gap: 0.5em;
+}
+
+
+.container input{
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border: #015F86 solid 1px;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color: #3e97bd;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #0093D0;
+}
+
+
+.checkmark:after {
+  content: "";
+  display: none;
+  position: absolute;
+}
+
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  justify-content: center;
+}
+
+
+.flex-child-instruction{
+  display: inline-block; 
+  margin-top: 0;
+}
+
+
+.instruction-text-1, .instruction-text-2, .instruction-text-3{
+  font-family: "Inria Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0093D0;
+  line-height: 20px;
+}
+
+
+.instruction-text-2, .instruction-text-3{
+  margin-left: 2.1em;
+}
+
+
+.body02-container{
+  display: none;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 9em;
+  padding-right: 4em;
+}
+
+
+.body02 br{
+  content: "";
+  display: block;
+  margin: 2em;
+}
+
+
+.container input:checked ~ .body02-container {
+  display: flex;
+  margin-top: 8em;
+  justify-content: center;
+  border: #015F86 solid 1px;
+  border-radius: 10px;
+  background: #0093D0;
+  color: #E0EFF8;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  margin-left: 6em;
+  margin-right: 6em;
+  margin-bottom: 5em;
+  width: 750px;
+}
+
+
+button{
+  text-transform: uppercase;
+  font-family: 'Arial Narrow';
+  background: white;
+  border-radius: 50px;
+  border: #015F86 solid 1px;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 4em;
+  margin-right: 4em;
+  float: right;
+
+}
+
+
+a{
+  text-decoration: none;
+  color:#0093D0;
+}
+
+a:hover{
+  color: #E0EFF8
+}
+
+
+button:hover{
+  background: #015F86;
+  color: #E0EFF8
+}
