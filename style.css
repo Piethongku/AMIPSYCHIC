@@ -25,7 +25,7 @@ body {
     color: #0093D0;
     align-items:baseline;
     margin-top: 1em;
-    line-height: 25px;
+    line-height: 20px;
     padding-left: 0.8em;
   }
 
@@ -58,11 +58,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 600;
     display: none;
-    position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    position: absolute;
+    margin-top: 3em;
   }
   
   .dropdown-content a {
@@ -84,7 +85,7 @@ body {
   
   
   .navtext:hover{
-    color: #E0EFF8;
+    color: #74b9d6;
   }
 
 
@@ -240,4 +241,150 @@ a:hover{
 button:hover{
     background: #015F86;
     color: #E0EFF8
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+
+  .navbar, .navtext{
+    font-size: 17px;
+    line-height: 18px;
+    padding-left: 7px;
+    padding-right: 1px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .dropdown-button{
+    font-size: 17px;
+    margin-left: auto;
+    
+  }
+
+
+
+  .navtext br{
+    display: none;
+  }
+
+
+  .navtext{
+    width: 170px;
+  }
+
+
+  .mobile-only-line-break { 
+    display: block;
+  }
+
+
+  .dropdown-content{
+    margin-top: 3.5em;
+  }
+  
+
+  .instruction-1 {
+      font-size: 16pt;
+  }
+
+
+  .instruction-1{
+    margin-top: 3em;
+}
+
+
+
+  .instruction-2{
+      font-size: 14pt;
+      margin-top: 10px;
+      line-height: 20px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      justify-content: left;
+      display: flex;
+      padding-left: 1em;
+  }
+
+
+
+  h3{
+    display: flex;
+    text-wrap: wrap;
+    font-size: 17pt;
+    justify-content: left;
+    text-align: left;
+    align-items: start;
+    padding-left: 2em;
+  }
+
+
+  h3 br{
+    display: none;
+  }
+
+
+  .body01, .body02, .body03, .instruction-text-1, .instruction-text-2, .instruction-text-3{
+     font-size: 16px;
+     padding-left: 0;
+     margin-bottom: 10px;
+     margin-left: 3em;
+     padding-right: 2.4em;
+     padding-bottom: 0.7em;
+  }
+
+
+  .body03{
+    margin-bottom: 6em ;
+  }
+
+  .instruction-text-1, .instruction-text-2, .instruction-text-3{
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      margin-left: 0em;
+      margin-top: 10px;
+
+  }
+
+
+  .instruction-text-3{
+    margin-bottom: 5em;
+  }
+
+
+
+  .quote{
+    display: flex;
+    justify-content: right;
+    margin-right: 1em;
+    font-size: 14px;
+  }
+
+
+  button{
+    font-size: 16px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0em;
+    margin-bottom: 3em;
+    margin-right: 1em;
+  }
+
+
+
+
+
+
+
+
+
+
 }
