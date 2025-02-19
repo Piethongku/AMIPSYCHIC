@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: nowrap;   
+    gap: 2em;             
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    overflow: hidden;
+  }
+  
+  
+  .navtext{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #0093D0;
+    align-items:baseline;
+    margin-top: 1em;
+    line-height: 25px;
+    padding-left: 0.8em;
+  }
+
+
+  a .navtext{
+    text-decoration: none;
+  }
+  
+  
+  .dropdown {
+    overflow: hidden;
+  }
+  
+  
+  .dropdown .dropdown-button {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+  }
+  
+  
+  .dropdown-content {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #0093D0;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .navtext:hover{
+    color: #E0EFF8;
+  }
+
+
+
+  .instruction-1{
+    margin-top: 100px;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    font-size: 2rem;
+    color: #E0EFF8;
+    background-color: #0093D0;
+    border-width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 2em;
+    width: 100% auto;
+    overflow:scroll;
+}
+
+
+.instruction-2 {
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.35rem;
+    border: #015F86 solid;
+    border-radius: 15px;
+    color: #0093D0;
+    background-color: #E0EFF8;
+    padding-left: 1.5em;
+    padding-left: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 150px;
+
+}
+
+
+.body01, .body02, .body03, .instruction-text-1, .instruction-text-2, .instruction-text-3{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-size: 15pt;
+    font-style: normal;
+    color: #0093D0;
+    padding-right: 8em;
+    margin-left: 5.9em;
+}
+
+
+.body01{
+    margin-top: 2em;
+}
+
+
+h3{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2rem;
+    font-style: normal;
+    color: #0093D0;
+    margin-top: 2em;
+    padding-left: 3.5em;
+}
+
+
+.arial{
+    font-family: 'Arial Narrow';
+    color: #0093D0;
+}
+
+
+.flex-parent{
+    display: flex;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+
+.flex-child-circle{
+    margin: 10px;
+    display: inline-block; 
+}
+
+
+.circle{
+    background-color: #E0EFF8;
+    border-radius: 80%;
+    width: 29px;
+    height: 29px;
+    border: black solid 1px;
+    margin: 10px;
+}
+
+
+.flex-child-instruction{
+    display: inline-block; 
+    margin-top: 15px;
+}
+
+
+.instruction-text-1, .instruction-text-2, .instruction-text-3{
+    font-family: "Inria Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #0093D0;
+    line-height: 40px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #0093D0;
+}
+
+
+.quote{
+    font-family: 'Arial Narrow';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: right;
+    color: #0093D0;
+    margin-right: 4em;
+    margin-top: 7em;
+}
+
+
+button{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: 'Arial Narrow';
+    background: white;
+    border-radius: 50px;
+    border: #015F86 solid 1px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 5em;
+    margin-right: 4em;
+    float: right;
+
+}
+
+
+a:hover{
+    color: #E0EFF8
+}
+
+
+button:hover{
+    background: #015F86;
+    color: #E0EFF8
+}
