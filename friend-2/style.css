@@ -72,6 +72,7 @@ a .navtext, .navbar{
   z-index: 1;
 }
 
+
 .dropdown-content a {
   float: none;
   color: #0093D0;
@@ -80,6 +81,7 @@ a .navtext, .navbar{
   display: block;
   text-align: left;
 }
+
 
 .dropdown-content a:hover {
   background-color: #ddd;
