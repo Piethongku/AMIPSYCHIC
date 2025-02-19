@@ -81,7 +81,8 @@ a .navtext, .navbar{
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #358fb5;
+  color: #E0EFF8;
 }
 
 .dropdown:hover .dropdown-content {
@@ -99,20 +100,20 @@ a .navtext, .navbar{
 }
 
 
-
 .instruction-1{
-  margin-top: 100px;
   font-family: 'Arial Narrow';
   font-weight: bold;
-  font-size: 2rem;
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  border: #015F86 solid;
+  border-radius: 15px;
   color: #E0EFF8;
   background-color: #015F86;
-  border-width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 2em;
-  width: 100% auto;
-  margin-top: 100px;
+  padding-left: 1.5em;
+  padding-left: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 150px;
 }
 
 
