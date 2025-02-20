@@ -363,13 +363,6 @@ button:hover{
 
   .instruction-1 {
     font-size: 14pt;
-    margin-top: 3em;
-    line-height: 20px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    justify-content: left;
-    display: flex;
-    padding-left: 1em;
   }
 
 
@@ -407,12 +400,9 @@ margin-bottom: 0;
   flex-direction: column;
   margin-top: 10px;
   justify-content: center;
-  border: #015F86 solid 1px;
   border-radius: 10px;
-  background: #E0EFF8;
-  color: #0093D0;
   padding-left: 2px;
-  padding-right: 1em;
+  padding-right: 2px;
   padding-top: 40px;
   padding-bottom: 40px;
   margin-bottom: 5em;
@@ -429,13 +419,16 @@ margin-bottom: 0;
 
 .flex-child-instruction{
   margin-top: -35px;
-  margin-left: 40px;
+  margin-left: 25px;
+  margin-right: 5px;
   margin-bottom: 15px;
 }
 
 
 .checkmark{
+  left: 0;
   margin-top: 30px;
+  padding-left: 0;
 }
 
 
